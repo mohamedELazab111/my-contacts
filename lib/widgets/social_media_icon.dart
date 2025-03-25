@@ -21,7 +21,8 @@ class SocialMediaIcon extends StatelessWidget {
           radius: 40,
         ),
         onTap: () {
-          launchUrl(Uri.parse(socialMediaLink),mode: LaunchMode.externalApplication);
+          launchUrl(Uri.parse(socialMediaLink),
+              mode: LaunchMode.externalApplication);
         },
       ),
     );
